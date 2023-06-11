@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl leading-6;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  section {
+    @apply mb-[100px];
+  }
+}

@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Providers from '@/components/Providers'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +21,10 @@ export default function RootLayout({
       <body className={`${inter.className} bg-slate-100 dark:bg-slate-900`}>
         <Providers>
           <Header />
-          {children}
+          <main className="mx-auto mt-40 min-h-screen max-w-3xl">
+            {children}
+          </main>
+          <Footer />
         </Providers>
       </body>
     </html>

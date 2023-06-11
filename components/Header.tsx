@@ -7,9 +7,9 @@ export default function Header() {
       <div className="mx-auto max-w-3xl">
         <nav className="flex flex-row gap-6">
           <Link href="/">Home</Link>
-          <Link href="/">About</Link>
-          <Link href="/">Projects</Link>
-          <Link href="/">Notes</Link>
+          <Link href="/about">About</Link>
+          <Link href="/notes">Notes</Link>
+          <Link href="/projects">Projects</Link>
           <Link href="/">Snippets</Link>
           <Link href="/">Guestbook</Link>
         </nav>
