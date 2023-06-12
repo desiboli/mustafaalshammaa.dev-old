@@ -50,7 +50,7 @@ export default function Home() {
         <h2 className="mb-10 font-bold">Recent projects</h2>
         <div>
           <div className="mb-10 grid grid-cols-2 gap-6">
-            <div className="flex h-64 flex-col rounded-lg bg-white p-10 shadow-sm">
+            <div className="flex h-64 flex-col rounded-lg bg-white p-10 shadow-sm dark:bg-slate-800">
               <h4 className="flex-1 text-2xl">Dinbox</h4>
               <div className="">
                 <h5 className="font-semibold">
@@ -59,7 +59,7 @@ export default function Home() {
                 <p>Showing you how I build my portfolio site</p>
               </div>
             </div>
-            <div className="flex h-64 flex-col rounded-lg bg-white p-10 shadow-sm">
+            <div className="flex h-64 flex-col rounded-lg bg-white p-10 shadow-sm dark:bg-slate-800">
               <h4 className="flex-1 text-2xl">Dinbox</h4>
               <div className="">
                 <h5 className="font-semibold">
