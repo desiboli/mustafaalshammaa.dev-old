@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import './globals.css'
+import '@/styles/github-dark.css'
 import { Inter } from 'next/font/google'
 import Providers from '@/components/Providers'
 import Footer from '@/components/Footer'
@@ -18,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-slate-50 dark:bg-slate-950`}>
+      <body className={`${inter.className} bg-stone-50 dark:bg-stone-950`}>
         <Providers>
           <Header />
           <main className="mx-auto mt-40 min-h-screen max-w-3xl">

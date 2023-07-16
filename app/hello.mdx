@@ -1,0 +1,33 @@
+export const meta = {
+  title: 'Hello',
+  slug: 'home',
+  author: 'Rich Haines',
+  date: '18th April 2023',
+  description: 'Welcome to my first blog',
+}
+
+Hello, Next.js!
+
+You can import and use React components in MDX files.
+
+This is a list in markdown:
+
+- One
+- Two
+- Three
+
+I **love** using [Next.js](https://nextjs.org/)
+
+# {meta.author}
+
+{props.test}
+
+```js
+export function myComponent() {
+  return <p>test</p>
+}
+```
+
+export default ({ children }) => (
+  <div className="prose dark:prose-invert">{children}</div>
+)
